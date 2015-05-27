@@ -1,0 +1,10 @@
+#DirectoryIndex .
+SetEnv DANCER_ENVIRONMENT "production"
+
+#<Location />
+  SetHandler perl-script
+  PerlResponseHandler Plack::Handler::Apache2
+  PerlSetVar psgi_app bin/app.psgi
+  Options +ExecCGI +SymLinksIfOwnerMatch
+  PerlSendHeader On
+#</Location>

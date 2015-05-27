@@ -1,4 +1,6 @@
 requires "Dancer2" => "0.160001";
+requires "Dancer2::Plugin::Database" => "0";
+requires "DBD::mysql" => "4.031";
 
 recommends "YAML"             => "0";
 recommends "URL::Encode::XS"  => "0";
