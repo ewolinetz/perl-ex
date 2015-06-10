@@ -27,13 +27,13 @@ template: "simple"
 #       start_tag: '<%'
 #       end_tag:   '%>'
 
-plugins:
-   Database:
-      driver: "mysql"
-      database: "sampledb"
-      host: "172.30.139.179"
-      port: 3306
-      username: "userVDC"
-      password: "utDfQGBU"
-      dbi_params:
-          RaiseError: 1
+#plugins:
+#   Database:
+#      driver: "mysql"
+#      database: "sampledb"
+#      host: "172.30.139.179"
+#      port: 3306
+#      username: "userVDC"
+#      password: "utDfQGBU"
+#      dbi_params:
+#          RaiseError: 1
